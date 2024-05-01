@@ -4,5 +4,5 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 
-  background: var(--background-clr);
+  background: top url('/static/img/background.svg') var(--background-clr);
 }

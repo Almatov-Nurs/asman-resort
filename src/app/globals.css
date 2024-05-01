@@ -1,7 +1,9 @@
 :root {
   --max-width: 1400px;
   
-  --background-clr: #f7f7f7;
+  --background-dark-clr: #000;
+  --background-light-clr: #f7f7f7;
+  --background-clr: var(--background-light-clr);
 
   --font-dark-clr: #252525;
   --font-light-clr: #fff;
@@ -10,7 +12,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background-clr: #2d2f31;
+    --background-clr: var(--background-dark-clr);
     --font-clr: var(--font-light-clr);
   }
 }
