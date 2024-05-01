@@ -1,20 +1,16 @@
-// modules
-import url from '@/shared/assets/background.svg';
 // widgets
-import Header from "@/widgets/header/ui";
-import Footer from "@/widgets/footer/ui";
+import Services from '@/widgets/services/ui';
 // styles
 import classes from "./page.module.scss";
+import AboutUs from '@/widgets/about-us/ui';
 
-
-const background = `top url('${url.src}') var(--background-clr)`;
 
 export default function Home() {
   return (
-    <main className={classes.main} style={{ background }}>
-      <Header/>
-      <section id="hero">text</section>
-      <Footer/>
+    <main className={classes.main}>
+      <section id="hero" className="container-lg">text</section>
+      <Services/>
+      <AboutUs/>
     </main>
   );
 }

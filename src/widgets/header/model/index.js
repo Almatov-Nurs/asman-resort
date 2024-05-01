@@ -1,7 +1,7 @@
 export const links = [
   {
     title: 'Услуги',
-    link: '/#',
+    link: '/#services',
   },
   {
     title: 'О нас',
