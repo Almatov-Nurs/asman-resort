@@ -2,13 +2,15 @@
   "name": "asman-resort",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "scripts": {
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
