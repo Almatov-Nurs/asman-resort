@@ -6,7 +6,7 @@ import Section from '@/features/ui/section';
 // shared
 import Card from '@/shared/ui/card';
 // models
-import { services } from '../model';
+import { services } from '../consts';
 // styles
 import "swiper/css";
 

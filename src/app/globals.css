@@ -57,3 +57,11 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.swiper-slide {
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
+}

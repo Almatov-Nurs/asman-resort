@@ -1,0 +1,45 @@
+.about-us,
+.images {
+  height: 500px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  column-gap: 20px;
+}
+
+.description {
+  height: 100%;
+
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(51, 64, 116, 0.57);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+
+  & b {
+    display: block;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+  }
+}
+
+.text {
+  white-space: pre-wrap;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.38px;
+}
+
+.images img {
+  width: 100%;
+}
+
+.rowImages {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+
+  gap: 20px;
+}
