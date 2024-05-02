@@ -1,14 +1,14 @@
 export const links = [
   {
     title: 'Услуги',
-    link: '/#services',
+    link: '#services',
   },
   {
     title: 'О нас',
-    link: '/#about-us',
+    link: '#about-us',
   },
   {
     title: 'Бронировать',
-    link: '/#hero',
+    link: '#hero',
   },
 ];
