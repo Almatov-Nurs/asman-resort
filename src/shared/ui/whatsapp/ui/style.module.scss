@@ -1,0 +1,15 @@
+.whatsapp {
+  position: relative;
+
+  &:hover {
+    .icon {
+      opacity: 0;
+    }
+  }
+}
+
+.icon {
+  position: absolute;
+
+  transition: .3s ease-in;
+}
