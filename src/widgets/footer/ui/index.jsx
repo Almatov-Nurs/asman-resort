@@ -1,6 +1,8 @@
 "use client";
 // shared
 import Asman from '@/shared/ui/asman/ui';
+import Instagram from '@/shared/ui/instagram/ui';
+import WhatsApp from '@/shared/ui/whatsapp/ui';
 import YMap from '@/shared/ui/map/ui';
 // icons
 import Mail from '@/shared/ui/mail/ui';
@@ -30,6 +32,7 @@ const Footer = () => {
             </a>
           </li>
           <li className={classes.item}><Clock/> 24/7</li>
+          <li className={classes.item}><Instagram/><WhatsApp/></li>
         </ul>
 
         <YMap/>
