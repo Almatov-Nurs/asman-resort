@@ -2,7 +2,7 @@
 import Header from "@/widgets/header/ui";
 import Footer from "@/widgets/footer/ui";
 // assets
-import url from '@/shared/assets/background.svg';
+import url from '@/shared/assets/img/background.svg';
 // fonts
 import { Inter, Montserrat } from "next/font/google";
 // styles

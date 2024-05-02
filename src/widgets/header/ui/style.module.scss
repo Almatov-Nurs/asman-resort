@@ -27,4 +27,9 @@ $blur: 15px;
   list-style: none;
 
   padding: 10px;
+
+  &:hover {
+    text-decoration: underline;
+    text-decoration-color: #FFE992;
+  }
 }

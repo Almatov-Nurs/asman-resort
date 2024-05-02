@@ -4,11 +4,11 @@ import Image from  "next/image";
 // shared
 import Button from "@/shared/ui/button";
 // assets
-import asman from  "@/shared/assets/asman.svg";
-import yurta from  "@/shared/assets/yurta.svg";
-import image from  "@/shared/assets/hero-image.png";
+import yurta from  "@/shared/assets/img/yurta.svg";
+import image from  "@/shared/assets/img/hero-image.png";
 // styles
 import classes from  "./style.module.scss";
+import Asman from "@/shared/ui/asman/ui";
 
 
 const background = `url( "${image.src} ") center bottom / cover no-repeat`;
@@ -19,7 +19,7 @@ const Hero = () => {
       <div className={classes.bg} style={{ background }}></div>
       <div className={`container-lg ${classes.content}`}>
         <div>
-          <Image src={asman} alt="logo" className={classes.asman}/>
+          <Asman className={classes.asman}/>
           <p className={classes.description}>Юрточный городок на побережье Иссик-Куля</p>
           <Button>Забронировать</Button>
         </div>
