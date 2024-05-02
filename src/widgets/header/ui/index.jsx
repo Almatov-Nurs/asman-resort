@@ -2,7 +2,7 @@
 // shared
 import Button from '@/shared/ui/button';
 // models
-import { links } from '../model';
+import { links } from '../consts';
 // styles
 import classes from './style.module.scss';
 
