@@ -4,9 +4,9 @@ import Image from 'next/image';
 // features
 import Section from "@/features/ui/section";
 // assets
-import image1 from '@/shared/assets/about-us1.png';
-import image2 from '@/shared/assets/about-us2.png';
-import image3 from '@/shared/assets/about-us3.png';
+import image1 from '@/shared/assets/img/about-us1.png';
+import image2 from '@/shared/assets/img/about-us2.png';
+import image3 from '@/shared/assets/img/about-us3.png';
 // styles
 import classes from './style.module.scss';
 
