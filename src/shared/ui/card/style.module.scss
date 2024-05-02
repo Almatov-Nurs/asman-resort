@@ -1,6 +1,4 @@
 .card {
-  max-width: 400px;
-
   padding: 10px;
 
   background: var(--font-dark-clr);
@@ -13,6 +11,8 @@
 }
 
 .image {
+  width: 100%;
+
   border-radius: 10px;
 }
 
