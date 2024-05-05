@@ -12,6 +12,10 @@ $blur: 10px;
   column-gap: 20px;
 }
 
+.about-us {
+  height: inherit;
+}
+
 .description {
   height: 100%;
 
@@ -54,9 +58,6 @@ $blur: 10px;
 }
 
 @include desktop {
-  .about-us {
-    height: inherit;
-  }
   .images {
     display: block;
     height: 100%;
