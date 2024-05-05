@@ -3,9 +3,9 @@
 import classes from './style.module.scss';
 
 
-const Button = ({ children }) => {
+const Button = ({ children, className }) => {
   return (
-    <button className={classes.button}>
+    <button className={`${classes.button} ${className}`}>
       {children}
     </button>
   );

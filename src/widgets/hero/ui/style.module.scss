@@ -1,8 +1,12 @@
+@import "@/app/styles/mixins.scss";
+
 .hero {
   position: relative;
 
   width: 100%;
   height: 700px;
+
+  margin-bottom: 80px;
 }
 
 .bg {
@@ -48,4 +52,39 @@
   right: -23px;
 
   transform: translateY(-50%);
+}
+
+@include desktop {
+  .hero {
+    height: 500px;
+  }
+}
+
+@include tablet {
+  .hero {
+    height: 400px;
+  }
+}
+
+@include mobile {
+  .hero {
+    height: 234px;
+  }
+
+  .asman {
+    width: 238px;
+    height: 43px;
+
+    margin-bottom: 5px;
+  }
+
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
+
+  .yurta {
+    display: none;
+  }
 }

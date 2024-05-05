@@ -5,15 +5,15 @@ import slide3 from '@/shared/assets/img/slide3.png';
 
 export const services = [
   {
-    title: 'Жизнь в юртах',
+    title: 'life-in-yurts',
     image: slide1.src,
   },
   {
-    title: 'Здоровая жизнь',
+    title: 'healthy-live',
     image: slide2.src,
   },
   {
-    title: 'Национальная кухня',
+    title: 'national-cuisine',
     image: slide3.src,
   },
 ];

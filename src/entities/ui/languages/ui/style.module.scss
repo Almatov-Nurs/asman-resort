@@ -1,0 +1,18 @@
+@import "@/app/styles/mixins.scss";
+
+.dropdown {
+  max-width: 79px;
+
+  border: none;
+  background: rgba(37, 37, 37, 0.2);
+  
+  & button:not([tabindex="0"]) {
+    color: var(--font-clr);
+  }
+}
+
+@include mobile {
+  .language {
+    display: none;
+  }
+}

@@ -1,10 +1,12 @@
+@import "@/app/styles/mixins.scss";
+
 .card {
   padding: 10px;
 
   background: var(--font-dark-clr);
   border-radius: 20px;
 
-  @media (prefers-color-scheme: light) {
+  @include is-light {
     border: 2px solid var(--font-dark-clr);
     background: var(--background-light-clr);
   }
@@ -23,4 +25,12 @@
   text-align: center;
 
   margin-top: 10px;
+}
+
+@include tablet {
+  .title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+  }
 }

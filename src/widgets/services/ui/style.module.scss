@@ -1,0 +1,18 @@
+@import "@/app/styles/mixins.scss";
+
+.mobile {
+  display: none;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+@include mobile {
+  .swiper {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+}

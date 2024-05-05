@@ -1,14 +1,21 @@
 export const links = [
   {
-    title: 'Услуги',
+    title: 'reservation',
+    link: '#hero',
+  },
+  {
+    title: 'services',
     link: '#services',
   },
   {
-    title: 'О нас',
+    title: 'about-us',
     link: '#about-us',
   },
-  {
-    title: 'Бронировать',
-    link: '#hero',
-  },
 ];
+
+export const LANGUAGES = {
+  en: 'English',
+  ru: 'Русский',
+  kr: 'Кыргызча',
+  undefined: 'Русский',
+};

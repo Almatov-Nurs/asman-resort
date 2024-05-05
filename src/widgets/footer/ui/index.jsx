@@ -1,4 +1,6 @@
 "use client";
+// modules
+import Link from 'next/link';
 // shared
 import Asman from '@/shared/ui/asman/ui';
 import Instagram from '@/shared/ui/instagram/ui';
@@ -16,20 +18,20 @@ const Footer = () => {
   return (
     <footer id="footer" className={classes.footer}>
       <nav className={`container-lg ${classes.nav}`}>
-        <a href="/">
+        <Link href="/">
           <Asman className={classes.asman}/>
-        </a>
+        </Link>
 
         <ul className={classes.links}>
           <li className={classes.item}>
-            <a href="mailto: asman.yurt@gmail.com" className={classes.link}>
+            <Link href="mailto: asman.yurt@gmail.com" className={classes.link}>
               <Mail/> asman.yurt@gmail.com
-            </a>
+            </Link>
           </li>
           <li className={classes.item}>
-            <a href="tel:+996550884248" className={classes.link}>
+            <Link href="tel:+996550884248" className={classes.link}>
               <Phone/> +996 550 88 42 48
-            </a>
+            </Link>
           </li>
           <li className={classes.item}><Clock/> 24/7</li>
           <li className={classes.item}><Instagram/><WhatsApp/></li>
