@@ -1,17 +1,18 @@
 "use client";
 // modules
 import Image from  "next/image";
+import Link from "next/link";
 // hooks
 import { useParams } from "next/navigation";
 import { useTranslation } from "@/app/i18n/client";
 // shared
+import Asman from "@/shared/ui/asman/ui";
 import Button from "@/shared/ui/button";
 // assets
 import yurta from  "@/shared/assets/img/yurta.svg";
 import image from  "@/shared/assets/img/hero-image.png";
 // styles
 import classes from  "./style.module.scss";
-import Asman from "@/shared/ui/asman/ui";
 
 
 const background = `url( "${image.src} ") center bottom / cover no-repeat`;
@@ -26,7 +27,7 @@ const Hero = () => {
         <div style={{ zIndex: 10 }}>
           <Asman className={classes.asman}/>
           <p className={classes.description}>{t('hero')}</p>
-          <Button>{t('reservation')}</Button>
+          <Link href="https://wa.me/996550884248" target='_blank'><Button>{t('reservation')}</Button></Link>
         </div>
         <Image src={yurta} alt="image from hero" className={classes.yurta}/>
       </div>

@@ -47,7 +47,7 @@ const Header =  () => {
         </ul>
         <div className={classes.buttons}>
           <Languages/>
-          <Button className={classes.button}>{t('reservation')}</Button>
+          <Link href="https://wa.me/996550884248" target='_blank'><Button className={classes.button}>{t('reservation')}</Button></Link>
         </div>
       </nav>
 
