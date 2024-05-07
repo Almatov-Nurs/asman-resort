@@ -11,6 +11,15 @@
   }
 }
 
+.item {
+  padding: 0;
+}
+
+.link {
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
 @include mobile {
   .language {
     display: none;

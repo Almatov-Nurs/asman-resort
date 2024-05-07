@@ -26,8 +26,8 @@ const Languages = () => {
       >
         {
           languages.map((key) => (
-            <Dropdown.Item key={key}>
-              <Link href={`/${key}/`}>{LANGUAGES[key]}</Link>
+            <Dropdown.Item key={key} className={classes.item}>
+              <Link href={`/${key}/`} className={classes.link}>{LANGUAGES[key]}</Link>
             </Dropdown.Item>
           ))
         }
