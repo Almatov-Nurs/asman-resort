@@ -8,7 +8,7 @@ export default function Custom404() {
 
   useEffect(() => {
     router.push('/ru/');
-  }, []);
+  }, [router]);
 
   return null;
 }
